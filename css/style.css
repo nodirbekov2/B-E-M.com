@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url(../img/blue.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.header-block__text{
+    font-size: 34px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 48px;
+}
+
+.box-button{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #ffff;
+    padding: 16px 48px;
+    background: transparent;
+    transition: 0.5s;
+}
+
+.box-button:hover{
+    box-shadow: 0 0 5px 8px rgb(141,141,141);
+}
+
+.header-block__button{
+    margin-top: 108px;
+}
+
+.header-block__text{
+    margin-top: 25%;
+}
+
+/* headder end */
+/* ************************ */
+/* about start */
+
+.about__text{
+    font-size: 14px;
+    color: #868585;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 72px;
+}
+
+.abuot{
+    padding-top: 92px;
+    padding-bottom: 192px;
+}
+
+.about__web{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 71px;
+    margin-bottom: 37px;
+}
+
+.about__img{
+    margin-top: 103px;
+}
+
+/* about end */
+/* ************************* */
+/* portfolio start */
+
+.portfolio{ 
+    padding-top: 109px;
+    padding-bottom: 62px;
+    background: #f3f3f3;
+}
+
+.portfolio__title{
+    font-style: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 240px;
+}
+
+.portfolio__img{
+    width: 100%;
+    margin-top: 21px;
+}
+
+.btn__center{
+    display: flex;
+    justify-content: center;
+}
+
+.section__btn{
+    margin-top: 62px;
+    color: #000;
+    border:1px solid  #000000;
+}
+
+.out__h4{
+    text-align: center;
+}
+
+.out{
+    background: url(../img/blue\ 2.jpg) no-repeat center center / cover;
+    padding: 100px 0;
+}
+
+.out__h4{
+    color: #ffffff;
+    margin: 100px 0;
+}
+
+footer{
+    padding: 100px 0;
+    background: #3c3c3c;
+}
+
+.footer__ul{
+    display: flex;
+}
+
+.footer__ul a{
+    margin: 0 10px;
+    color: #a4a4a4;
+    text-decoration: none;
+}
+
+footer p{
+    color: #6c6c6c;
+}
+
+@media(max-width:507px){
+    footer p{
+        font-size: 8px;
+    }
+    
+    .about__web {
+        font-size: 8px;
+    }
+}
